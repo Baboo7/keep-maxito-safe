@@ -1,0 +1,21 @@
+.Toastify__toast-container {
+  padding: 10px;
+}
+
+.Toastify__toast {
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: "MontserratLight";
+  font-weight: bold;
+  color: white;
+}
+
+.Toastify__toast.error {
+  border-left: 7px solid #ff4500;
+  background-color: #ff875b;
+}
+
+.Toastify__toast.success {
+  border-left: 7px solid rgb(255, 215, 0);
+  background-color: #ffe366;
+}
