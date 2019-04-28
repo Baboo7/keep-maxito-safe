@@ -16,6 +16,7 @@ export const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   outline: none;
+  transition: all 0.3s ease-in-out;
 
   &:disabled {
     background-color: ${colors.verylightgray};
