@@ -8,6 +8,8 @@ type IColor =
   | "lightorange"
   | "red"
   | "lightred"
+  | "darkblue"
+  | "blue"
   | "yellow"
   | "lightyellow"
   | "white";
@@ -22,6 +24,8 @@ export const colors: { [key in IColor]: string } = {
   lightorange: "#ffc352",
   red: "#ff4500",
   lightred: "#ff875b",
+  darkblue: "#0000cc",
+  blue: "#4d4dff",
   yellow: "rgb(255,215,0)",
   lightyellow: "#ffe366",
   white: "white"
