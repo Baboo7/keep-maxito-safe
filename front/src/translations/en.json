@@ -1,1 +1,12 @@
-{}
+{
+  "actions": {
+    "raise": "Raise"
+  },
+  "errors": {
+    "connection-failure": "The alarm could not be raised! Check your internet connection and retry in a moment"
+  },
+  "send-alert": {
+    "placeholder-alert": "Raise the alarm!",
+    "send-success": "Alarm successfully raised! Thank you amigo, we're contacting the relevant authorities to save Maxito"
+  }
+}
