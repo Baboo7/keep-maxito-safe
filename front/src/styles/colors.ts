@@ -1,4 +1,5 @@
 type IColor =
+  | "black"
   | "darkbrown"
   | "lightbrown"
   | "lightgray"
@@ -12,6 +13,7 @@ type IColor =
   | "white";
 
 export const colors: { [key in IColor]: string } = {
+  black: "black",
   darkbrown: "#612E25",
   lightbrown: "#70392F",
   lightgray: "lightgray",
