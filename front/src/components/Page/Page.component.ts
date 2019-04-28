@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import dotImage from "../assets/images/dot.png";
+import dotImage from "../../assets/images/dot.png";
 
 export const Page = styled.section`
   display: flex;
